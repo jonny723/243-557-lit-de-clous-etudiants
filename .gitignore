@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# STM32CubeIDE
+**/Debug/
+**/Release/
+**/.settings/
+*.launch
+
+# Fichiers temporaires
+*.log
+*.tmp
+*~
+Thumbs.db
+.DS_Store
+
+# Environnements et secrets
+.env
+.env.*
+!.env.example
